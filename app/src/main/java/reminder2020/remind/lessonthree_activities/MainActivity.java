@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         else{
             instanceState = "Повторный запуск!";
         }
-        makeToast("onStart()");
+        makeToast("onCreate()");
     }
     @Override
     protected void onStart() {
